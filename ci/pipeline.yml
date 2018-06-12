@@ -20,6 +20,7 @@ resources:
   type: semver
   source:
     bucket: {{aws-bucket}}
+    region_name: {{aws-region-name}}
     key: pal-tracker/version
     access_key_id: {{aws-access-key-id}}
     secret_access_key: {{aws-secret-access-key}}
