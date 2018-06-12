@@ -3,4 +3,4 @@ applications:
 - name: ashpal-tracker
   path: build/libs/pal-tracker.jar
   routes:
-  -route: ag-pal-tracker.apps.chicken.pal.pivotal.io
+  - route: ag-pal-tracker-review.apps.cumuluslabs.io
