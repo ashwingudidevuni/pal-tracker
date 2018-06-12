@@ -41,7 +41,7 @@ resources:
     username: {{cf-username}}
     password: {{cf-password}}
     organization: {{cf-org}}
-    space: sandbox
+    space: production
 
 jobs:
 - name: build
