@@ -11,6 +11,7 @@ resources:
   type: s3
   source:
     bucket: {{aws-bucket}}
+    region_name: {{aws-region-name}}
     regexp: releases/pal-tracker-(.*).jar
     access_key_id: {{aws-access-key-id}}
     secret_access_key: {{aws-secret-access-key}}
@@ -30,7 +31,7 @@ resources:
     username: {{cf-username}}
     password: {{cf-password}}
     organization: {{cf-org}}
-    space: review
+    space: sandbox
 
 - name: production-deployment
   type: cf

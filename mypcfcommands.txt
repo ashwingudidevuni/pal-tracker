@@ -1,0 +1,196 @@
+    1  scutil --set ComputerName MACLTUS27064
+    2  scutil --set HostName MACLTUS27064
+    3  scutil --set LocalHostName MACLTUS27064
+    4  cd desktop
+    5  sudo chmod +x install.sh
+    6  sudo ./install.sh -i
+    7  cd desktop
+    8  sudo chmod +x install.sh
+    9  sudo ./install.sh -i
+   10  exit
+   11  ls
+   12  cd ~/workspace
+   13  ls
+   14  cd prerequisite-code/
+   15  ls
+   16  cd build
+   17  ls
+   18  cd classes
+   19  ls
+   20  cd main/
+   21  ls
+   22  cd io/
+   23  ls
+   24  cd pivotal/
+   25  ls
+   26  cd pal/
+   27  ls
+   28  cd prerequisites/
+   29  ls
+   30  java
+   31  ls
+   32  java Application.class 
+   33  cf apps
+   34  cf delete prerequisite
+   35  cf delete prerequisite
+   36  ls
+   37  pwd
+   38  cd ~/workspace
+   39  brew install Tomee plume
+   40  brew install Tomeeplume
+   41  brew install tomee-plume
+   42  brew install minio
+   43  brew install redis
+   44  brew install nginx
+   45  brew install aws-cli
+   46  brew install awscli
+   47  pwd
+   48  cd ~/workspace
+   49  git clone https://github.com/ashwingudidevuni/pal-tracker
+   50  ls
+   51  cd pal-tracker/
+   52  ls
+   53  pwd
+   54  gradle wrapper
+   55  ls
+   56  pwd
+   57  pwd
+   58  touch build.gradle
+   59  ls
+   60  ls
+   61  mkdir src
+   62  cd src/
+   63  mkdir main
+   64  ls
+   65  cd main/
+   66  mkdir java
+   67  ls
+   68  pwd
+   69  pwd
+   70  cd ..
+   71  ls
+   72  cd ..
+   73  cd ..
+   74  ls
+   75  cd p
+   76  cd pal-tracker/
+   77  ls
+   78  ./gradlew build
+   79  gradle tasks
+   80  ./gradlew bootRun
+   81  ./gradlew build
+   82  gradle tasks
+   83  ./gradlew bootRun
+   84  cf
+   85  cf --help
+   86  cf login --help
+   87  cf login -a api.system.cumuluslabs.io
+   88  cf target
+   89  ./gradlew build
+   90  cf push --help
+   91  cf push pal-tracker
+   92  cf push
+   93  cf push ashpal-tracker
+   94  ls
+   95  touch manifest.yml
+   96  cf push
+   97  cf push
+   98  cf apps
+   99  pwd
+  100  ls
+  101  git push
+  102  git push -help
+  103  git push https://github.com/ashwingudidevuni/pal-tracker
+  104  git 
+  105  git commit
+  106  git commit -help
+  107  git status
+  108  git config --global user.email "ashwin.gudidevuni@gmail.com"
+  109  git commit
+  110  git commit
+  111  git push
+  112  ls
+  113  ls
+  114  pwd
+  115  cd ..
+  116  ls
+  117  ls -a
+  118  cd pal-tracker/
+  119  ls -a
+  120  vi .gitignore 
+  121  pwd
+  122  git push
+  123  git commit
+  124  git 
+  125  vi .gitignore 
+  126  git commit
+  127  git add *
+  128  git status
+  129  git commit
+  130  git push
+  131  cf buildpacks
+  132  cf buildpacks --help
+  133  cf buildpacks -help
+  134  cf apps
+  135  cf images
+  136  cf images -a
+  137  cf image
+  138  pwd
+  139  git cherry-pick deployment-start
+  140  pwd
+  141  ./gradlew bootRun
+  142  WELCOME_MESSAGE=hello_ashwin ./gradlew bootRun
+  143  WELCOME_MESSAGE=hello_ashwin ./gradlew bootRun
+  144  ls
+  145* ./gradlew build 
+  146  ./gradlew bootRun
+  147  WELCOME_MESSAGE=hello_ashwin ./gradlew bootRun
+  148   ./gradlew bootRun
+  149   ./gradlew bootRun
+  150   ./gradlew bootRun
+  151   ./gradlew bootRun
+  152   ./gradlew test
+  153   ./gradlew clean build
+  154  cf apps
+  155  cf push ashpal-tracker -p build/libs/pal-tracker.jar --random-route
+  156  cf logs --recent ashpal-tracker
+  157  cf set-env ashpal-tracker WELCOME_MESSAGE "Hello from Cloud Foundry"
+  158  cf restage ashpal-tracker
+  159  cf apps
+  160  cf app ashpal-tracker
+  161  cf scale ashpal-tracker -m 768M -f
+  162  cf app ashpal-tracker
+  163  cf scale ashpal-tracker -i 2
+  164  cf app ashpal-tracker
+  165  cf app ashpal-tracker
+  166  cf delete ashpal-tracker
+  167  cf push
+  168  cf apps
+  169  git commit
+  170  git push
+  171  git commit
+  172  git add *
+  173  git commit
+  174  git push
+  175  cf domains
+  176  cf map-route pal-tracker ${DOMAIN} --hostname pal-tracker-${INITIALS}-dev
+  177* cf map-route ashpal-tracker ${} --hostname ashpal-tracker-${INITIALS}-dev
+  178  cf map-route pal-tracker ${DOMAIN} --hostname pal-tracker-${INITIALS}-dev
+  179  cf map-route pal-tracker ashnet --hostname pal-tracker-ash-dev
+  180  cf map-route ashpal-tracker ashnet --hostname pal-tracker-ash-dev
+  181  cf domains
+  182  cf map-route ashpal-tracker apps.cumuluslabs.io --hostname pal-tracker-ash-dev
+  183  cf apps
+  184  cf apps
+  185  cf routes
+  186  cf --help -a
+  187  cf delete-orphaned-routes
+  188  cf routes
+  189  cf unmap-route ashpal-tracker apps.cumuluslabs.io --hostname pal-tracker-ash-dev
+  190  cf routes
+  191  cf apps
+  192  cf delete-orphaned-routes
+  193  cf apps
+  194  cf routes
+  195  cf apps
+  196  history > mypcfcommands.txt
