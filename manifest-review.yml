@@ -4,3 +4,5 @@ applications:
   path: build/libs/pal-tracker.jar
   routes:
   - route: ag-pal-tracker-review.apps.cumuluslabs.io
+  services:
+  - tracker-database
