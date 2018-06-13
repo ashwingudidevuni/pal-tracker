@@ -1,0 +1,500 @@
+   27  ls
+   28  cd prerequisites/
+   29  ls
+   30  java
+   31  ls
+   32  java Application.class 
+   33  cf apps
+   34  cf delete prerequisite
+   35  cf delete prerequisite
+   36  ls
+   37  pwd
+   38  cd ~/workspace
+   39  brew install Tomee plume
+   40  brew install Tomeeplume
+   41  brew install tomee-plume
+   42  brew install minio
+   43  brew install redis
+   44  brew install nginx
+   45  brew install aws-cli
+   46  brew install awscli
+   47  pwd
+   48  cd ~/workspace
+   49  git clone https://github.com/ashwingudidevuni/pal-tracker
+   50  ls
+   51  cd pal-tracker/
+   52  ls
+   53  pwd
+   54  gradle wrapper
+   55  ls
+   56  pwd
+   57  pwd
+   58  touch build.gradle
+   59  ls
+   60  ls
+   61  mkdir src
+   62  cd src/
+   63  mkdir main
+   64  ls
+   65  cd main/
+   66  mkdir java
+   67  ls
+   68  pwd
+   69  pwd
+   70  cd ..
+   71  ls
+   72  cd ..
+   73  cd ..
+   74  ls
+   75  cd p
+   76  cd pal-tracker/
+   77  ls
+   78  ./gradlew build
+   79  gradle tasks
+   80  ./gradlew bootRun
+   81  ./gradlew build
+   82  gradle tasks
+   83  ./gradlew bootRun
+   84  cf
+   85  cf --help
+   86  cf login --help
+   87  cf login -a api.system.cumuluslabs.io
+   88  cf target
+   89  ./gradlew build
+   90  cf push --help
+   91  cf push pal-tracker
+   92  cf push
+   93  cf push ashpal-tracker
+   94  ls
+   95  touch manifest.yml
+   96  cf push
+   97  cf push
+   98  cf apps
+   99  pwd
+  100  ls
+  101  git push
+  102  git push -help
+  103  git push https://github.com/ashwingudidevuni/pal-tracker
+  104  git 
+  105  git commit
+  106  git commit -help
+  107  git status
+  108  git config --global user.email "ashwin.gudidevuni@gmail.com"
+  109  git commit
+  110  git commit
+  111  git push
+  112  ls
+  113  ls
+  114  pwd
+  115  cd ..
+  116  ls
+  117  ls -a
+  118  cd pal-tracker/
+  119  ls -a
+  120  vi .gitignore 
+  121  pwd
+  122  git push
+  123  git commit
+  124  git 
+  125  vi .gitignore 
+  126  git commit
+  127  git add *
+  128  git status
+  129  git commit
+  130  git push
+  131  cf buildpacks
+  132  cf buildpacks --help
+  133  cf buildpacks -help
+  134  cf apps
+  135  cf images
+  136  cf images -a
+  137  cf image
+  138  pwd
+  139  git cherry-pick deployment-start
+  140  pwd
+  141  ./gradlew bootRun
+  142  WELCOME_MESSAGE=hello_ashwin ./gradlew bootRun
+  143  WELCOME_MESSAGE=hello_ashwin ./gradlew bootRun
+  144  ls
+  145* ./gradlew build 
+  146  ./gradlew bootRun
+  147  WELCOME_MESSAGE=hello_ashwin ./gradlew bootRun
+  148   ./gradlew bootRun
+  149   ./gradlew bootRun
+  150   ./gradlew bootRun
+  151   ./gradlew bootRun
+  152   ./gradlew test
+  153   ./gradlew clean build
+  154  cf apps
+  155  cf push ashpal-tracker -p build/libs/pal-tracker.jar --random-route
+  156  cf logs --recent ashpal-tracker
+  157  cf set-env ashpal-tracker WELCOME_MESSAGE "Hello from Cloud Foundry"
+  158  cf restage ashpal-tracker
+  159  cf apps
+  160  cf app ashpal-tracker
+  161  cf scale ashpal-tracker -m 768M -f
+  162  cf app ashpal-tracker
+  163  cf scale ashpal-tracker -i 2
+  164  cf app ashpal-tracker
+  165  cf app ashpal-tracker
+  166  cf delete ashpal-tracker
+  167  cf push
+  168  cf apps
+  169  git commit
+  170  git push
+  171  git commit
+  172  git add *
+  173  git commit
+  174  git push
+  175  cf domains
+  176  cf map-route pal-tracker ${DOMAIN} --hostname pal-tracker-${INITIALS}-dev
+  177* cf map-route ashpal-tracker ${} --hostname ashpal-tracker-${INITIALS}-dev
+  178  cf map-route pal-tracker ${DOMAIN} --hostname pal-tracker-${INITIALS}-dev
+  179  cf map-route pal-tracker ashnet --hostname pal-tracker-ash-dev
+  180  cf map-route ashpal-tracker ashnet --hostname pal-tracker-ash-dev
+  181  cf domains
+  182  cf map-route ashpal-tracker apps.cumuluslabs.io --hostname pal-tracker-ash-dev
+  183  cf apps
+  184  cf apps
+  185  cf routes
+  186  cf --help -a
+  187  cf delete-orphaned-routes
+  188  cf routes
+  189  cf unmap-route ashpal-tracker apps.cumuluslabs.io --hostname pal-tracker-ash-dev
+  190  cf routes
+  191  cf apps
+  192  cf delete-orphaned-routes
+  193  cf apps
+  194  cf routes
+  195  cf apps
+  196  history > mypcfcommands.txt
+  197  pwd
+  198  git cherry-pick pipeline-start
+  199  ls
+  200  cd ci
+  201  ls
+  202  fly
+  203  fly
+  204  ls -a fly
+  205  fly
+  206  install fly /usr/local/bin
+  207  install /usr/local/bin/fly /usr/local/bin
+  208  fly
+  209  pwd
+  210  fly --target pal-concourse login --concourse-url https://concourse.cumuluslabs.io/ --team-name ashwin.gudidevuni@cognizant.com
+  211  l
+  212  ls
+  213  vi build.yml 
+  214  vi pipeline.yml 
+  215  cf create-space review
+  216  cf create-space production
+  217  ls
+  218  cd ..
+  219  ls
+  220  vi manifest.yml 
+  221  cp manifest.yml manifest-review.yml 
+  222  cp manifest.yml manifest-production.yml 
+  223  vi manifest-review.yml 
+  224  vi manifest-production.yml.yml 
+  225  vi manifest-production.yml
+  226  ls
+  227  vi manifest-review.yml 
+  228  cf login
+  229  cf marketplace
+  230  cf services
+  231  cf apps
+  232  cf restage ashpal-tracker
+  233  cf env ash-paltracker
+  234  cf env ashpal-tracker
+  235  ls
+  236  cd ci/
+  237  ls
+  238  vi variables.yml
+  239  cd ..
+  240  ls
+  241  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml 
+  242  vi ci/variables.yml 
+  243  vi ci/pipeline.yml 
+  244  vi ci/pipeline.yml 
+  245  vi ci/variables.yml 
+  246  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml 
+  247  vi ci/variables.yml 
+  248  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml 
+  249  vi ci/variables.yml 
+  250  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml 
+  251  vi ci/variables.yml 
+  252  vi ci/variables.yml 
+  253  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml 
+  254  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml 
+  255  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml 
+  256  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml 
+  257  fly --help
+  258  fly destroy-pipeline pal-tracker
+  259  fly destroy-pipeline -p pal-tracker
+  260  fly destroy-pipeline pal-concourse
+  261  fly destroy-pipeline -p pal-concourse
+  262  fly -t pal-concourse destroy-pipeline -p ashpal-tracker 
+  263  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml 
+  264  fly -t pal-concourse destroy-pipeline -p ashpal-tracker 
+  265  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml 
+  266  fly -t pal-concourse destroy-pipeline -p ashpal-tracker 
+  267  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml 
+  268  ls
+  269  git commit
+  270  git add *
+  271  git commit
+  272  git commit
+  273  git push
+  274  fly -t pal-concourse destroy-pipeline -p ashpal-tracker 
+  275  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml 
+  276  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml 
+  277  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml 
+  278  git status
+  279  git add ci/pipeline.yml 
+  280  git status
+  281  git commit
+  282  git commit
+  283  git push
+  284  git commit -m
+  285  git commit
+  286  git add ci/pipeline.yml 
+  287  git commit
+  288  git push
+  289  git commit
+  290  git add ci/pipeline.yml 
+  291  git commit
+  292  git commit -m
+  293  git commit m
+  294  git commit -m "try again"
+  295  git add ci/pipeline.yml 
+  296  git commit -m "try again"
+  297  git push
+  298  fly -t pal-concourse destroy-pipeline -p ashpal-tracker 
+  299  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml 
+  300  fly -t pal-concourse destroy-pipeline -p ashpal-tracker 
+  301  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml 
+  302  cf target
+  303  cf login
+  304  fly -t pal-concourse destroy-pipeline -p ashpal-tracker 
+  305  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml 
+  306  cf orgs
+  307  fly -t pal-concourse destroy-pipeline -p ashpal-tracker 
+  308  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml 
+  309  cf apps
+  310  cf apps
+  311  cf login -a api.system.cummuluslabs.io
+  312  cf login
+  313  cf apps
+  314  git commit
+  315  git add *
+  316  git push
+  317  git commit
+  318  git push
+  319  git add *
+  320  git commit -m "once again"
+  321  git push
+  322  pwd
+  323  git cherry-pick mvc-start
+  324  ls
+  325  cd src/
+  326  ls
+  327  cd main/
+  328  ls
+  329  cd java/
+  330  ls
+  331  cd io/
+  332  ls
+  333  cd pivotal/
+  334  ls
+  335  cd pal/
+  336  ls
+  337  cd tracker/
+  338  ls
+  339  cd ~/workspace
+  340  ls
+  341  cd pal-tracker/
+  342  ls
+  343  ./gradlew clean compileTestJava
+  344  ./gradlew clean compileTestJava
+  345  ./gradlew tasks
+  346  ./gradlew test
+  347  ./gradlew clean compileTestJava
+  348  ./gradlew clean compileTestJava
+  349  ./gradlew clean compileTestJava
+  350  cls
+  351  clean
+  352  clear
+  353  ./gradlew clean compileTestJava
+  354  ./gradlew clean compileTestJava
+  355  ./gradlew clean compileTestJava
+  356  ./gradlew clean compileTestJava
+  357  ./gradlew clean compileTestJava
+  358  ./gradlew clean compileTestJava
+  359  ./gradlew clean compileTestJava
+  360  ./gradlew clean compileTestJava
+  361  ./gradlew clean compileTestJava
+  362  ./gradlew clean compileTestJava
+  363  ./gradlew clean compileTestJava
+  364  ./gradlew clean compileTestJava
+  365  ./gradlew clean compileTestJava
+  366  clear
+  367  ./gradlew clean compileTestJava
+  368  ./gradlew clean compileTestJava
+  369  ./gradlew clean compileTestJava
+  370  ./gradlew clean compileTestJava
+  371  ./gradlew clean compileTestJava
+  372  ./gradlew clean compileTestJava
+  373  ./gradlew clean compileTestJava
+  374  ./gradlew clean compileTestJava
+  375  ./gradlew clean compileTestJava
+  376  ./gradlew clean compileTestJava
+  377  ./gradlew clean compileTestJava
+  378  ./gradlew clean compileTestJava
+  379  ./gradlew clean compileTestJava
+  380  ./gradlew clean compileTestJava
+  381  ./gradlew clean compileTestJava
+  382  ./gradlew clean compileTestJava
+  383  ./gradlew clean compileTestJava
+  384  ./gradlew clean compileTestJava
+  385  ./gradlew clean compileTestJava
+  386  ./gradlew clean compileTestJava
+  387  ./gradlew clean compileTestJava
+  388  ./gradlew clean compileTestJava
+  389  ./gradlew clean compileTestJava
+  390  ./gradlew clean compileTestJava
+  391  ./gradlew clean compileTestJava
+  392  ./gradlew clean compileTestJava
+  393  ./gradlew clean compileTestJava
+  394  ./gradlew clean compileTestJava
+  395  ./gradlew clean compileTestJava
+  396  ./gradlew clean compileTestJava
+  397  ./gradlew clean compileTestJava
+  398  ./gradlew clean compileTestJava
+  399  ./gradlew clean compileTestJava
+  400  ./gradlew clean compileTestJava
+  401  ./gradlew clean compileTestJava
+  402  ./gradlew clean compileTestJava
+  403  ./gradlew clean compileTestJava
+  404  ./gradlew clean compileTestJava
+  405  ./gradlew clean compileTestJava
+  406  ./gradlew clean compileTestJava
+  407  ./gradlew clean compileTestJava
+  408  ./gradlew clean compileTestJava
+  409  ./gradlew clean compileTestJava
+  410  cls
+  411  clear
+  412  ./gradlew clean build
+  413  ./gradlew clean compileTestJava
+  414  ./gradlew clean compileTestJava
+  415  ./gradlew clean compileTestJava
+  416  ./gradlew clean compileTestJava
+  417  ./gradlew clean compileTestJava
+  418  ./gradlew clean build
+  419  ./gradlew clean build
+  420  ./gradlew clean build
+  421  pwd
+  422  ls
+  423  git add *
+  424  git commin -m "MVC"
+  425  git push
+  426  ls
+  427  git commit
+  428  git push
+  429  curl -g https://agprod-pal-tracker-review.apps.cumuluslabs.io/time-entries
+  430  curl --help
+  431  curl -g https://agprod-pal-tracker-review.apps.cumuluslabs.io/time-entries/1
+  432  pwd
+  433  git cherry-pick migration-start
+  434  pwd
+  435  mkdir databases
+  436  cd databases/
+  437  ls
+  438  mkdir tracker
+  439  cd tracker/
+  440  ls
+  441  touch create_databases.sql
+  442  pwd
+  443  mkdir migrations
+  444  cd migrations/
+  445  ls
+  446  touch V1__initial_schema.sql
+  447  cd ../..
+  448  ls
+  449  cd ..
+  450  ls
+  451  mysql
+  452  mysql -uroot < databases/tracker/create_databases.sql 
+  453  mysql
+  454  mysql -uroot < databases/tracker/create_databases.sql 
+  455  flyway
+  456  flyway -url="jdbc:mysql://localhost:3306/tracker_dev" -locations=filesystem:databases/tracker clean migrate
+  457  flyway -url="jdbc:mysql://localhost:3306/tracker_test" -locations=filesystem:databases/tracker clean migrate
+  458  mysql -u tracker
+  459  cf marketplace
+  460  pwd
+  461  cf target -s review
+  462  cf create-service MySql 100MB tracker-database
+  463  cf create-service MySQL 100mb tracker-database
+  464  cf create-service ash-mysql 100mb tracker-database
+  465  cf create-service MySQL 100mb tracker-database
+  466  cf m
+  467  cf create-service p-mysql 100mb tracker-database
+  468  cf target -s production
+  469  cf create-service p-mysql 100mb tracker-database
+  470  cf bind-service pal-tracker tracker-database
+  471  cf bind-service ashpal-tracker tracker-database
+  472  cf target -s review
+  473  cf bind-service ashpal-tracker tracker-database
+  474  cf target -s sandbox
+  475  cf create-service p-mysql 100mb tracker-database
+  476  cf bind-service ashpal-tracker tracker-database
+  477  cf target -s review
+  478  cd target -s sandbox
+  479  cf target -s sandbox
+  480  cf env ashpal-tracker
+  481  cf restage ashpal-tracker
+  482  cf env ashpal-tracker
+  483  :q
+  484  cf target -s production
+  485  cf restage ashpal-tracker
+  486  cf env ashpal-tracker
+  487  cf target -s sandbox
+  488  cf env ashpal-tracker
+  489  ./gradlew clean compileTestJava
+  490  pwd
+  491  fly -t pal-concourse set-pipeline -p pal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml
+  492  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml
+  493  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml
+  494  pwd
+  495  git commit
+  496  git add *
+  497  git commit
+  498  git push
+  499  git commit
+  500  git add *
+  501  git commit
+  502  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml
+  503  git push
+  504  git add *
+  505  git commit
+  506  git push
+  507  git commit
+  508  git add *
+  509  git commit
+  510  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml
+  511  fly -t pal-concourse destroy-pipeline -p ashpal-tracker 
+  512  fly -t pal-concourse set-pipeline -p ashpal-tracker --load-vars-from ci/variables.yml -c ci/pipeline.yml
+  513* mysql -u tracker
+  514  mysql -u tracker
+  515  ls
+  516  pwd
+  517  git cherry-pick jdbc-start
+  518  ./gradlew clean build
+  519  git add *
+  520  git commit
+  521  git push
+  522  ./gradlew clean build
+  523  git add *
+  524  git commit
+  525  git push
+  526  history > mycommand613.txt
